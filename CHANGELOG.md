@@ -1,17 +1,10 @@
 # Changelog
 
-## 1.2.6.1
-- Typo inside div tag corrected
+## 1.2.3.1
 
-## 1.2.6
-- Security updates for the following Gems: ffi, nokogiri, rack, rails-html-sanitizer, loofah, yard
-
-## 1.2.5
-- Allow ERB syntax in `lines_config.yml`
-
-## 1.2.4
-- Can specify carrierwave storage in `lines_config.yml`
-- Fixed namespacing bugs
+- Update latest dependencies
+- Added support for generating Admin assets
+- Custom default Admin blog navigation
 
 ## 1.2.3
 - fix No such middleware to insert before: ActionDispatch::Static (Thanks to @scottbarrow)
