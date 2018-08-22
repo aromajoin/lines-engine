@@ -1,6 +1,6 @@
 # Changelog
 
-## 1.2.3.1
+## 1.3.0
 
 - Update latest dependencies
 - Added support for generating Admin assets
