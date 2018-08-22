@@ -28,4 +28,11 @@ class HeroImageUploader < CarrierWave::Uploader::Base
     Rails.root.join 'public/'
   end
 
+  def fog_public
+    false
+  end
+
+  def fog_authenticated_url_expiration
+    1.year # in seconds from now,  (default is 1.year)
+  end
 end
