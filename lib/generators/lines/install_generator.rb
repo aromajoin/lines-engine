@@ -14,14 +14,15 @@ module Lines
 
     def copy_stylesheets
       FileUtils.mkdir_p "app/assets/stylesheets/lines"
-      directory('../../../app/assets/stylesheets/lines/', 'app/assets/stylesheets/lines/', {:exclude_pattern => /admin/} )
+      directory('../../../app/assets/stylesheets/lines/', 'app/assets/stylesheets/lines/')
     end
 
     def copy_views
-      directory('../../../app/views/lines', 'app/views/lines/', {:exclude_pattern => /admin|sessions/})
+      directory('../../../app/views/lines', 'app/views/lines/', {:exclude_pattern => /sessions/})
       directory('../../../app/views/kaminari', 'app/views/kaminari/')
       copy_file('../../../app/views/layouts/lines/application.html.erb', 'app/views/layouts/lines/application.html.erb')
       copy_file('../../../app/views/layouts/lines/preview.html.erb', 'app/views/layouts/lines/preview.html.erb')
+      copy_file('../../../app/views/layouts/lines/admin.html.erb', 'app/views/layouts/lines/admin.html.erb')
     end
 
     def copy_config
