@@ -33,7 +33,7 @@ namespace :lines do
   def get_credentials
     print "Your name: "
     @author_name = STDIN.gets.strip.to_s
-    print "Your Emailaddress: "
+    print "Your email address: "
     @emailaddr = STDIN.gets.strip.to_s
     print "Choose a password: "
     @pw = STDIN.gets.strip.to_s
