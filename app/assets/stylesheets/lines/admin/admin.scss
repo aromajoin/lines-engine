@@ -3,7 +3,9 @@
 @import 'lines/navbar';
 @import 'lines/messages';
 
-@import 'jquery.ui.all';
+@import "../../jquery-ui/core.css";
+@import "../../jquery-ui/datepicker.css";
+@import "../../jquery-ui/theme.css";
 
 /*
  * Reset
