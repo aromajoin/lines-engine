@@ -1,6 +1,6 @@
 //= require jquery
 //= require jquery_ujs
-//= require jquery-ui/widgets/datepicker
+//= require jquery-ui
 //= require autocomplete-rails
 //= require jquery-fileupload/basic
 //= require jquery-fileupload/vendor/tmpl
