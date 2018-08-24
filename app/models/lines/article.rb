@@ -63,7 +63,7 @@ module Lines
 
     # Returns the url for the hero image
     def image_url
-      image = self.hero_image? ? self.hero_image.url : self.short_hero_image
+      self.hero_image? ? self.hero_image.url : self.short_hero_image
     end
 
     # Returns the absolute url for the hero image
